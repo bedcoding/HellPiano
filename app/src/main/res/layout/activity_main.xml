@@ -12,21 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="385dp"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="0dp">
-
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@drawable/img">
 
         <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="776dp"
-                android:layout_height="match_parent"
-                android:src="@drawable/img"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <LinearLayout
                     android:id="@+id/linearLayout"
@@ -34,7 +25,6 @@
                     android:layout_height="match_parent"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true">
-
 
                 <Button
                     android:id="@+id/a"
@@ -76,18 +66,17 @@
                     android:layout_width="80dp"
                     android:layout_height="300dp" />
 
-                    <Button
-                        android:id="@+id/i"
-                        android:layout_width="80dp"
-                        android:layout_height="300dp" />
+                <Button
+                    android:id="@+id/i"
+                    android:layout_width="80dp"
+                    android:layout_height="300dp" />
 
-                    <Button
-                        android:id="@+id/j"
-                        android:layout_width="80dp"
-                        android:layout_height="300dp" />
-
-
+                <Button
+                    android:id="@+id/j"
+                    android:layout_width="80dp"
+                    android:layout_height="300dp" />
                 </LinearLayout>
+
 
                 <Button
                     android:id="@+id/a_up"

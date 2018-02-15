@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+
 // 내가 뭔 정신으로 이걸 만들 생각을 한걸까
 public class SubActivity extends Activity {
     private static MediaPlayer mp;   // 배경음악 출력에 넣을 변수
