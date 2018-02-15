@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA500">
+
+    <TextView
+        android:text="출처"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+        android:text=" 버전 : 0.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="#FF4500	"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="* 이 어플은 (교수님이 과제로 내주셔서 만든거지만) 세계 평화에 이바지하기 위한 공익적인 목적으로 제작된 비영리 어플입니다"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="#FF4500	"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="* 총 제작기간: 1일 (뿌듯뿌듯)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="#FF4500"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text=" 1. 로고 출처: 오투잡 재능마켓 빠냐냐
+ (https://www.otwojob.com/product/PREyzB2YqiKAX9JAvRKo)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="#FF7F50"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text=" 2. 사진 출처: 야인시대 2003년 3월 4일 64화 캡쳐
+ (이 드라마를 홍보하고 싶은 마음에 넣었습니다 꼭 보세요 명작임)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="#FF7F50"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text=" 3. 배경 출처: http://endtimenews.net/judgment-of-the-fallen-angels
+ (구글에 '지옥'으로 검색하면 같은 사진이 여러개 뜨는데 뭐가 원본인지 모르겠네)"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="#FF7F50"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text=" 4. 음악 출처: https://youtu.be/hV4m4tFJZhc
+ (유튜브 영상 - 으아아아.. 망했어요~)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="#FF7F50"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

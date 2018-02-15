@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ggavi.newpii">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Pop 버튼 추가 -->
+        <activity android:name=".Pop"> </activity>
+
+        <!-- 3번째 화면: 화면을 가로로 고정하는 screenOrientation 등록 -->
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensorLandscape">
+        </activity>
+
+        <!-- 2번째 화면: 위와 동일하게 화면을 가로로 고정하는 screenOrientation 등록 -->
+        <activity
+            android:name=".SubActivity"
+            android:screenOrientation="sensorLandscape">
+        </activity>
+
+        <!-- 1번째 화면(인트로): intent-filter를 삽입해서 class를 메인화면으로 지정 -->
+        <activity
+            android:name=".Intro"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
