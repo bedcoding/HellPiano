@@ -135,6 +135,7 @@
                     android:background="@android:color/background_dark" />
 
             <ImageButton
+                android:src="@drawable/ic_arrow_back_black_24dp"
                 android:id="@+id/button1"
                 android:layout_width="80dp"
                 android:layout_height="70dp"
@@ -142,8 +143,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_orange_light"
                 android:gravity="center"
-                android:text="메인"
-                android:src="@drawable/goza" />
+                android:text="메인" />
 
 
             <Button

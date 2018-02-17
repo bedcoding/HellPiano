@@ -15,6 +15,7 @@ import android.widget.ImageButton;
 public class SubActivity extends Activity {
     private static MediaPlayer mp;   // 배경음악 출력에 넣을 변수
     private ImageButton buttonHELL;  // 이미지 버튼 만들려고 추가
+    private ImageButton buttonNEXT;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,19 @@ public class SubActivity extends Activity {
 
 
         // 누르면 다음 화면으로 넘어가는 버튼
+        buttonNEXT = (ImageButton) findViewById(R.id.button);
+        buttonNEXT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SubActivity.this, MainActivity.class);
+                startActivity(intent);
+
+                mp.stop();  // 음악 끄기
+                finish();
+            }
+        });
+
+        /*
         Button b = (Button) findViewById(R.id.button);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +66,7 @@ public class SubActivity extends Activity {
                 finish();
             }
         });
+        */
     }
 
 
