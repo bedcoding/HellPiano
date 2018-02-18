@@ -49,6 +49,6 @@ public class Intro extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 5000);   // 5초를 의미
+        }, 3000);   // 5초를 의미
     }
 }

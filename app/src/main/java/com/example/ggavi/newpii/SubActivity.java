@@ -35,6 +35,9 @@ public class SubActivity extends Activity {
 
         // 배경음악 삽입
         mp = MediaPlayer.create(this, R.raw.sad);
+
+        // 소리가 너무 커서 반으로 줄임 (갑툭튀해서 내가 놀램)
+        mp.setVolume(0.5f, 0.5f);
         mp.start();
         // mp.setLooping(true); 이걸 넣으면 무한루프
 

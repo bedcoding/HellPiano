@@ -92,7 +92,7 @@
 
     <TextView
         android:text="2. 배경: http://endtimenews.net/judgment-of-the-fallen-angels
-    (구글에 '지옥'으로 검색하면 같은 사진이 여러개 뜨는데 뭐가 원본인지 모르겠네)"
+(구글에 '지옥'으로 검색하면 같은 사진이 여러개 뜨는데 뭐가 원본인지 모르겠네)"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
 
     <TextView
         android:text="3. 배경음악: https://youtu.be/hV4m4tFJZhc
-    (유튜브 영상 - 으아아아.. 망했어요~)"
+(유튜브 영상 - 으아아아.. 망했어요~)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"

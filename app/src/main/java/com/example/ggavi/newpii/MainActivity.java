@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                soundPool.play(sound_c, 0.5f, 0.5f, 0, 0, 1);
+                soundPool.play(sound_c, 1, 1, 0, 0, 1);
             }
         });
 
